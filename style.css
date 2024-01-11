@@ -1,0 +1,65 @@
+<style>
+    *{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    body{
+        background-image:url('gato.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;}
+    form{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        flex-direction: column;
+    }
+    
+    .container{
+        width: 350px;
+        display: flex;
+        flex-direction: column;
+        padding: 0 15px 0 15px ;
+    }
+    
+    span{
+        color: rgb(12, 1, 2)7, 7, 7);
+        font-size: small;
+        display: flex;
+        justify-content: center;
+        padding: 10px 0 10px 0;
+    }
+    header{
+        color: white;
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+        padding: 10px 0 10px 0;
+    }
+    .input-field{
+        display: flex;
+        flex-direction: column;
+    }
+     input{
+        height: 45px;
+        width: 84px;
+        border: none;
+        outline: none;
+        border-radius: 30px;
+        color: white;
+        background: rgb(70, 86, 87); 
+        padding: 5px 45px 2px 100px;
+        position: center;
+       
+       }
+      i{
+        position: relative;
+        height: 40px;
+        color: rgb(14, 13, 13);
+        position: relative;
+        left: -40px;
+     }  
+    
+    
+     </style>
